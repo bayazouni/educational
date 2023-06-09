@@ -1,0 +1,142 @@
+﻿/* برای فضای نمایش بصورت عمودی */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'IranSans', Tahoma, Arial, sans-serif;
+    line-height: 1.5;
+}
+
+/* لینک ها شبیه دکمه باشند */
+a.btn {
+    padding: 15px 25px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #2196F3;
+    color: #fff;
+}
+
+/* تغییر رنگ پس‌زمینه در حالت نشانگر موس برروی منو */
+nav .nav-wrapper:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* سبک اسلایدر */
+.slider .caption,
+.slider h2,
+.slider h5 {
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+/* تغییر فاصله بین عناصر دوره های برتر */
+.featured-courses .card {
+    margin-bottom: 30px;
+}
+
+/* فاصله بین تصویر و توضیحات دوره های برتر */
+.featured-courses .card-image {
+    margin-bottom: 10px;
+}
+
+/* سبک تیتر صفحات */
+section h2 {
+ font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+/* سبک توضیحات کوتاه دوره های برتر */
+.featured-courses .card-content p {
+    font-size: 16px;
+    color: #777;
+}
+
+/* حاشیه اطراف فیلد های ورودی */
+input[type="text"],
+input[type="email"],
+textarea.materialize-textarea {
+    border: none;
+    border-bottom: 1px solid #9e9e9e;
+    margin-bottom: 10px;
+    padding-left: 0;
+}
+
+/* برای متن لیست در فوتر */
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* حاشیه بین موارد در لیست */
+ul li {
+    margin-bottom: 5px;
+}
+
+/* تغییر رنگ پس‌زمینه بخش فوتر */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* تغییر رنگ پس‌زمینه منوی موبایل */
+.sidenav {
+    background-color: #f1f1f1;
+}
+
+/* تنظیم فاصله بین عناصر در فوتر */
+.footer .row {
+    margin-bottom: 0;
+}
+
+/* سبک صفحه تماس با ما */
+.contact-us-section form {
+    margin-top: 30px;
+}
+
+/* سبک فرم تماس با ما */
+.contact-us-section form input[type="text"],
+.contact-us-section form input[type="email"],
+.contact-us-section form textarea {
+    border: none;
+    border-bottom: 1px solid #9e9e9e;
+    margin-bottom: 20px;
+    padding-left: 0;
+}
+
+/* تغییر رنگ پس زمینه بخش اپلیکیشن */
+.app-section {
+    background-color: #f9f9f9;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+}
+
+/* سبک دکمه دانلود */
+.btn-download {
+    background-color: #2196F3;
+    color: #fff;
+    margin-top: 30px;
+    padding: 10px 20px;
+}
+
+/* تنظیمات فونت شماره صفحه در منو */
+.pagination li.active a {
+    background-color: #2196F3!important;
+}
+
+.app-section .btn-download {
+    display: inline-block;
+    background-color: #2196F3;
+    color: #fff;
+    margin-top: 30px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+}

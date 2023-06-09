@@ -1,0 +1,188 @@
+﻿<!DOCTYPE html>
+<html lang="fa-IR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>آموزش زبان های برنامه نویسی، بازی سازی و ترید</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- منو -->
+    <nav>
+        <div class="nav-wrapper container">
+            <a href="#" class="brand-logo">آموزشگاه آنلاین</a>
+            <a href="#" data-target="mobile-menu" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="#">صفحه اصلی</a></li>
+                <li><a href="#">دوره های آموزشی</a></li>
+                <li><a href="#">درباره ما</a></li>
+                <li><a href="#">تماس با ما</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- منوی موبایل -->
+    <ul class="sidenav" id="mobile-menu">
+        <li><a href="#">صفحه اصلی</a></li>
+        <li><a href="#">دوره های آموزشی</a></li>
+        <li><a href="#">درباره ما</a></li>
+        <li><a href="#">تماس با ما</a></li>
+    </ul>
+
+    <!-- بخش اسلایدر -->
+    <div class="slider">
+        <ul class="slides">
+            <li>
+                <img src="23.jpg" alt="">
+                <div class="caption center-align">
+                    <h2>آموزش زبان‌های برنامه نویسی</h2>
+                    <h5 class="light grey-text text-lighten-3">از صفر تا صد در کوتاه‌ترین زمان ممکن</h5>
+                </div>
+            </li>
+            <li>
+                <img src="65.jpg" alt="">
+                <div class="caption right-align">
+                    <h2>آموزش بازی سازی</h2>
+                    <h5 class="light grey-text text-lighten-3">از ایده تا پروژه به صورت کاملاً عملی</h5>
+                </div>
+            </li>
+            <li>
+                <img src="traid.jpg" alt="">
+                <div class="caption left-align">
+                    <h2>آموزش ترید</h2>
+                    <h5 class="light grey-text text-lighten-3">پویش بازارهای مالی با استراتژی‌های حرفه‌ای</h5>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <!-- بخش دوره های برتر -->
+    <section class="featured-courses">
+        <div class="container">
+            <h2>دوره‌های برتر</h2>
+            <div class="row">
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="python.jpg" alt="">
+                               </div>
+                        <div class="card-content">
+                            <span class="card-title">آموزش زبان Python</span>
+                            <p>یادگیری زبان برنامه‌نویسی پرکاربرد و جذاب Python</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="game.jpg" alt="">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title">آموزش Unity</span>
+                            <p>آموزش بازی سازی در محیط Unity به صورت کاملاً عملی</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="Meisam.jpg" alt="">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title">آموزش تحلیل تکنیکال</span>
+                            <p>آموزش تحلیل گرافیکی نمودارهای بازار سرمایه</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- بخش درباره ما -->
+    <section class="about-us-section">
+        <div class="container">
+            <h2>درباره ما</h2>
+            <p>آموزشگاه آنلاین با هدف افزایش دانش و توانمندی کاربران در زمینه‌های برنامه‌نویسی، بازی سازی و ترید تأسیس شده است. با بهره‌گیری از استادان برجسته و تجربه‌ی فراوان، ما در پی بهبود کیفیت آموزش و رسیدن به اهداف شما هستیم.</p>
+        </div>
+    </section>
+
+    <!-- بخش تماس با ما -->
+    <section class="contact-us-section">
+        <div class="container">
+            <h2>تماس با ما</h2>
+            <form action="#" method="post">
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="fullname" type="text" name="fullname" required>
+                        <label for="fullname">نام و نام خانوادگی</label>
+                    </div>
+                    <div class="input-field col s12">
+                        <input id="email" type="email" name="email" required>
+                        <label for="email">ایمیل</label>
+                    </div>
+                    <div class="input-field col s12">
+                        <textarea id="message" class="materialize-textarea" name="message" required></textarea>
+                        <label for="message">پیام شما</label>
+                    </div>
+                    <div class="col s12">
+                        <button type="submit" class="btn">ارسال پیام</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- بخش اپلیکیشن -->
+    <section class="app-section">
+        <div class="container">
+            <h2>اپلیکیشن آموزشگاه آنلاین</h2>
+            <p>با دانلود اپلیکیشن آموزشگاه آنلاین، به راحتی می‌توانید از دوره‌های آموزشی ما بهره مند شوید و در کنار یادگیری فنی، تکنولوژی‌های جدید را فرا بگیرید.</p>
+            <a href="#" class="btn btn-download">دانلود اپلیکیشن</a>
+        </div>
+    </section>
+
+    <!-- فوتر -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m6 l4">
+                    <h5>آموزشگاه آنلاین</h5>
+                    <p>با ما همراه باشید و دوره‌های مفید و کاربردی را یاد بگیرید.</p>
+                </div>
+                <div class="col s12 m6 l4">
+                    <h5>لینک‌های مفید</h5>
+                    <ul>
+                        <li><a href="#">صفحه اصلی</a></li>
+                        <li><a href="#">دوره های آموزشی</a></li>
+                        <li><a href="#">درباره ما</a></li>
+                        <li><a href="#">تماس با ما</a></li>
+                    </ul>
+                </div>
+                <div class="col s12 m12 l4">
+                    <h5>تماس با ما</h5>
+                    <p>آدرس: تهران، خیابان ولیعصر، نبش خیابان شهید علی صمدی، ساختمان پارسا، طبقه چهارم</p>
+                    <p>شماره تلفن: ۰۲۱-۳۲۵۴۶۷۸۹</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- کدهای جاوااسکریپت -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        // ابزارک منوی موبایل
+        const mobileMenu = document.querySelectorAll('.sidenav');
+        M.Sidenav.init(mobileMenu, {});
+
+        // ابزارک اسلایدر
+        const slider = document.querySelectorAll('.slider');
+        M.Slider.init(slider, {
+            indicators: false,
+            height: 500,
+            transition: 600,
+            interval: 3000
+        });
+    </script>
+</body>
+</html>
